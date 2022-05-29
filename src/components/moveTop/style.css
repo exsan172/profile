@@ -1,0 +1,21 @@
+.moveTop {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #00cba9;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    bottom: 60px;
+    right: 50px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 576px) {
+    .moveTop {
+        bottom: 35px;
+        right: 20px;
+    }
+}

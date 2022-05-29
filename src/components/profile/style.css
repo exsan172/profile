@@ -1,0 +1,11 @@
+.profile_pic {
+    width: 200px;
+    height: 200px;
+}
+
+#profile {
+    background-image: url("../../assets/waves.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
