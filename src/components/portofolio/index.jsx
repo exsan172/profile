@@ -6,6 +6,7 @@ import Covid from '../../assets/covid_info.png'
 import Telur_rebus_apps from '../../assets/telur_rebus_apps.png'
 import Telur_rebus_web from '../../assets/telur_rebus_web.png'
 import Laundy from '../../assets/laundry_apps.png'
+import WaGen from '../../assets/whatsapp_link_generator.png'
 import "./style.css"
 
 const Portofolio = () => {
@@ -24,6 +25,22 @@ const Portofolio = () => {
                         />
                         <Carousel.Caption>
                             <a href="https://srtin.my.id/" target="_blank" rel="noreferrer">
+                                <button className="px-4 py-2 border-0 rounded text-white shadow" style={{backgroundColor: "#00cba9"}}>
+                                    Lihat aplikasi
+                                    &nbsp;
+                                    <FontAwesomeIcon icon={faArrowRight} size="sm"/>
+                                </button>
+                            </a>
+                        </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                        className="d-block w-100"
+                        src={WaGen}
+                        alt="whatsapp generator"
+                        />
+                        <Carousel.Caption>
+                            <a href="https://wa.srtin.my.id/" target="_blank" rel="noreferrer">
                                 <button className="px-4 py-2 border-0 rounded text-white shadow" style={{backgroundColor: "#00cba9"}}>
                                     Lihat aplikasi
                                     &nbsp;
